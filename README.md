@@ -42,7 +42,8 @@ Following the notations described in the above agent, this agent uses more infer
 
 Details and Analysis of Agent 3 and Agent 4 is available [here]().
 
-## Agent 6, 7
+ 
+## Agent 5, 6, 7
 
 This agent uses the probabilistic methods to draw inference from it's current knowledge. The target cell is hiddent in this case. Hence, after entering each cell, the agent will sense whether the target is present in the cell or not. Also, the examination might yield False Negative results. But we know the probability that the examination will yield a False Negative result.  There are three types of cells in the terrain:
 1. Forest: The probability of successfully finding the target in the forest cell is 0.2
