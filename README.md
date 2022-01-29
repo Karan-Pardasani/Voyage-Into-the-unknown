@@ -12,6 +12,10 @@ The algorithm for the repeated A-star is as follows:
 #### In this project, we designed the variations of A-star algorithms for different situations. We explored 9 different situations which leads to 9 different algoritms.
 
 ## Agent 1
-The initial location of the agent is top left corner of the grid and the target location is the botton right of the grid. The agent will implement the abover described repeated A-star algorithm to find the shortest path from the start position to the target.
+The initial location of the agent is top left corner of the grid and the target location is the botton right of the grid. The agent will implement the above described repeated A-star algorithm to find the shortest path from the start position to the target. In this project, the agent can sense cells into 8 different directions (N, S, E, W, NE, NW, SE, SW) and update it's knowledge.
 
-For details and analysis of this algorithm, refer to [Agent-1 Report]().
+## Agent 2
+
+Similar to Agent 1, the inital location of the agent is the top left corne of the grid and the target location is the bottom right of the grid. The agent will be in the same situation as Agent 1 but this agent can look sense the cell that it is currently present on. So, here the agent will enter the next cell of the path and if it is unblocked it will update it's knowledge and continue and if the cell is blocked, then the agent will move back to the previous cell and replan the path using A-star algorithm.
+
+For details and analysis of Agent 1 and Agent 2 algorithm refer to this [report]().
