@@ -61,3 +61,9 @@ For the above algorithm the agent prioritises going to the cell with maximum cor
 For more detailed analysis and results of Agent 6, 7 and 8,  refer to the [report]().
 
 ## Agent 9
+
+This agent uses Machine Learning models to mimic the actions done by Agent 1 and 2. The challenges for modelling this agent include, the data representation for learning and the hyperparameters for training the model like number of layers, number of neurons in each layer. This agent was modeled using Artificial Neural Network.
+
+## Agent 10
+
+This agent uses Machine Learning models to mimic the actions done by Agent 1 and 2. The challenges for modelling this agent include, the data representation for learning and the hyperparameters for training the model like number of layers, number of neurons in each layer. This agent was modeled using Convolutional Neural Network.
